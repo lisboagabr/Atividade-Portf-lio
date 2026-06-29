@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Menu de navegação-->
+    <title>Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Portfólio</h1>
+    <nav>
+        <ul>
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <button onclick="alterarTema()"> Tema</button>
+<!--Principais informações-->
+    <section id="sobremim">
+        <h2>Sobre mim</h2>
+        <p>Me chamo Gabriel, nasci no Rio de Janeiro, mas moro em São Gonçalo a vida toda. Porém a vida foi sempre dividida entre Rio e São Gonçalo, tanto para estudos, cursos e trabalhos. Sou muito caseiro, gosto de séries, jogos e academia.</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação</h2>
+        <ul>
+            <li>Ensino Médio (Completo)</li>
+            <li>Auxiliar de Logística (Completo)</li>
+            <li>Assistente de Hotelaria (Completo)</li>
+            <li>Análise e Desenvolvimento de Sistemas (2025-atual)</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Meu Portfólio</h2>
+        <p>Trabalho sobre Banco de Dados:</p>
+    </section>
+<!--Formulário para envio de mensagem-->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <label>Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br><br>
+            <label>E-mail:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label>Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    </div>
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
